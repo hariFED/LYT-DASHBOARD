@@ -16,7 +16,7 @@ const Dashboard = () => {
         <div className='px-10 mt-10 '>
           <PerformenceMetrics />
         </div>
-        <div>
+        <div className='w-1/2 px-10 my-5'>
           <EngagementRates />
         </div>
       </div>
