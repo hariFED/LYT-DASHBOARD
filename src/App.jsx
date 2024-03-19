@@ -6,7 +6,9 @@ function App() {
 
   return (
     <>
-      <Dashboard />
+      <div className='w-[1440px] mx-auto'>
+        <Dashboard />
+      </div>
     </>
   )
 }

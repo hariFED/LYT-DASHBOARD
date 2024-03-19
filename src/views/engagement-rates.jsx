@@ -20,7 +20,7 @@ function DropdownMenu() {
     return (
         <>
             <div className='flex items-center justify-between'>
-                <div>
+                <div className='text-[18px]'>
                     Engagement Rates
                 </div>
                 <div className="relative text-sm text-center cursor-pointer">
@@ -38,9 +38,11 @@ function DropdownMenu() {
                         </ul>
                     </div>
                 </div>
-                
+
             </div>
-            <Chart/>
+            <div className='p-5 mt-5 bg-white'>
+                <Chart />
+            </div>
         </>
     );
 }
