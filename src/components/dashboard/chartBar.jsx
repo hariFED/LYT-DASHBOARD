@@ -54,7 +54,8 @@ export const options = {
 
 
         }
-    }
+    },
+  
 };
 
 const labels = ["Mon", "Tue", "Wed", "Thur", "Fri", "Sat", "Sun"];

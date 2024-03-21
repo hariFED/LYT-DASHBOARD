@@ -7,12 +7,12 @@ const AudienceDemography = () => {
             <div className="text-[18px]">
                 Audience Demography
             </div>
-            <div className="mt-5">
+            <div className="flex items-center mt-5">
                 <div className="flex flex-col">
                     <p className="font-medium ">Gender</p>
                     <DoughnutChart />
                 </div>
-                <div>
+                <div className="w-[150%]">
                     <StackedChart />
                 </div>
             </div>
